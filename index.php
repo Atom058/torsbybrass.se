@@ -2,12 +2,10 @@
 
 <div id="content" class="">
 
-	<div class="l-post a-fade-in-left">
+	<div class="">
 		<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>">
-					<header>
-						<h1 class=""><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
-					</header>
+					<h1 class=""><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
 					<div class="">
 						<?php the_date( 'F j, Y', 'Published on ', '', TRUE ) ?> by <?php echo(get_the_author()); ?>
 					</div>
@@ -18,9 +16,6 @@
 						<div class="">
 							<?php echo( the_tags() ); ?><br/>
 							Comments: <?php comments_popup_link(); ?>
-						</div>
-						<div class="social">
-							<?php atom058_get_share_button( get_the_ID() ); ?>
 						</div>
 					</div>
 				</article>
