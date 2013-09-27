@@ -1,0 +1,24 @@
+/*Colours for the theme!*/
+
+
+/* Backgrounds */
+.c-bg-black {
+	background-color: black;
+}
+
+.c-bg-gray, nav.main li:hover {
+	background: rgb(40,40,40);
+}
+
+/* Colours */
+.c-white {
+	color: rgb(245,245,245);
+}
+
+.c-black {
+	color: rgb(18,18,18);
+}
+
+.c-gray {
+	color: rgb(200,200,200);
+}

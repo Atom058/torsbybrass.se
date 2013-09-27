@@ -7,10 +7,19 @@ File containing layout elements of the torsbybrass.se site
 }
 
 .l-pagewide {
-	max-width: 960px;
+	max-width: 800px;
 }
 
 .l-center, .l-pagewide {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*Margins*/
+.l-margin-top-large {
+	margin-top: 50px;
+}
+
+.l-margin-top-small {
+	margin-top: 10px;
 }
