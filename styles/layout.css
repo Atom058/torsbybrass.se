@@ -1,0 +1,16 @@
+/*
+File containing layout elements of the torsbybrass.se site
+*/
+
+.l-fullwidth {
+	width: 100%;
+}
+
+.l-pagewide {
+	max-width: 960px;
+}
+
+.l-center, .l-pagewide {
+	margin-left: auto;
+	margin-right: auto;
+}
