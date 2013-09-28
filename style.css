@@ -40,7 +40,7 @@ html {
 body {
 	font-size: 20px;
 	font-size: 2.0rem;
-	font-family: 'Roboto';
+	font-family: 'Roboto', 'Calibri', 'sans-serif';
 	line-height: 1.4em;
 }
 
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-	font-style: light;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {

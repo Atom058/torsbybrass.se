@@ -12,12 +12,6 @@
 					<div class="l-margin-top-small">
 							<?php the_content(); ?>
 					</div>
-					<div class="">
-						<div class="">
-							<?php echo( the_tags() ); ?><br/>
-							Comments: <?php comments_popup_link(); ?>
-						</div>
-					</div>
 				</article>
 				<?php wp_link_pages(); ?>
 		<?php endwhile; else : ?>

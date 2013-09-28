@@ -16,7 +16,7 @@
  	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
  	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/styles/layout.css" type="text/css" />
  	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/styles/colour.css" type="text/css" />
- 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,300italic' rel='stylesheet' type='text/css'>
+ 	<!--link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,300italic' rel='stylesheet' type='text/css'-->
  	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
  	<?php wp_head(); ?>
