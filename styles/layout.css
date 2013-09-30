@@ -7,7 +7,9 @@ File containing layout elements of the torsbybrass.se site
 }
 
 .l-pagewide {
-	max-width: 800px;
+	width: 100%;
+	padding: 0 30px;
+	max-width: 860px;
 }
 
 .l-center, .l-pagewide {

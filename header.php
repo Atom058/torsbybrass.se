@@ -24,7 +24,7 @@
  <?php $classes = array('c-black', 'c-bg-white')?>
  <body <?php body_class($classes); ?>>
 	 	<header class="l-fullwidth c-bg-black c-white">
-	 		<div id="header" class="l-pagewide header">
+	 		<div id="header" class="l-pagewide" style="padding-top:50px;">
 	 			<h1>Torsbybrass.se!</h1>
  			</div>
  		</header>

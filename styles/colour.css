@@ -20,5 +20,9 @@
 }
 
 .c-gray {
-	color: rgb(200,200,200);
+	color: rgb(170,170,170);
+}
+
+.c-bc-black, hr{
+	border-color: rgb(170,170,170);
 }

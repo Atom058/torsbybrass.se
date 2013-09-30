@@ -14,6 +14,7 @@
 					</div>
 				</article>
 				<?php wp_link_pages(); ?>
+				<hr class="l-margin-top-large"> <?php //TODO: add check for more posts ?>
 		<?php endwhile; else : ?>
 			<!-- If no post were found, we have a fallback-->
 			<p><?php _e('Sorry, could not find any posts...'); ?></p>
