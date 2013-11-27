@@ -21,15 +21,13 @@
 
  	<?php wp_head(); ?>
  </head>
- <?php $classes = array('c-black', 'c-bg-white')?>
- <body <?php body_class($classes); ?>>
-	 	<header class="l-fullwidth c-bg-black c-white">
-	 		<div id="header" class="l-pagewide" style="padding-top:50px;">
-	 			<h1>Torsbybrass.se!</h1>
- 			</div>
- 		</header>
-	 	<nav id="site-nav" class="main l-fullwidth c-bg-black c-white" role="navigation">
-	 		<?php wp_nav_menu( array( 
-	 			'menu' => '1'
-	 			, 'menu_class' => 'l-pagewide') ); ?>
-	 	</nav>
+ 
+<body <?php body_class($classes); ?>>
+  <header> 
+    <h1>Torsbybrass.se!</h1>
+  </header>
+  <nav>
+    <?php wp_nav_menu( array( 
+        'menu' => '1'
+      , 'menu_class' => 'l-pagewide') ); ?>
+  </nav>

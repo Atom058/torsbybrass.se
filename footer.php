@@ -2,9 +2,9 @@
 
 <div class="clearfix"></div>
 
-<div class="l-center l-margin-top-large c-gray" style="text-align: center;">
+<footer> 
 	Developed by Anton Dahlström - ©2013
-</div>
+</footer>
 
 </body>
 </html>
