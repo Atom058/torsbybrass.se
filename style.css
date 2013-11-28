@@ -10,7 +10,7 @@ Tags: flat
 --------------------------------------------------------------
 */
 
-html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img {
+html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote {
   display: block;
   box-sizing: border-box;
   margin: 0px;
@@ -19,9 +19,10 @@ html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, head
 
 body {
   text-size: 62.5%;
-  line-height: 1.15;
+  line-height: 1.25;
   font-family: sans-serif;
   background-color: rgb(250,250,250);
+  color: rgb(18,18,18);
   min-height: 100%;
 }
 
@@ -51,8 +52,11 @@ footer {
 }
 
 p {
-  margin-bottom: 0.6em;
   font-size: 1.4em;
+}
+
+p, blockquote {
+  margin-bottom: 0.6em;
 }
 
 a {
@@ -72,6 +76,25 @@ h3 {font-size: 2.4em;}
 h4 {font-size: 2.0em;}
 h5 {font-size: 1.8em;}
 h6 {font-size: 1.4em;}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote{
+  padding: 2.0em;
+  background-color: rgb(225,225,235);
+}
+
+blockquote p{
+  color: rgb(98,98,98);
+  padding: 0;
+  margin: 0;
+}
 
 /*
  *
