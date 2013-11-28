@@ -10,6 +10,47 @@ Tags: flat
 --------------------------------------------------------------
 */
 
+/**
+ *
+ *Fonts
+ *
+ */
+
+/*@font-face {
+  font-family: 'Oxygen';
+  src: url('./fonts/Oxygen-Regular.tff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('./fonts/Oxygen-Light.tff');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  src: url('./fonts/Oxygen-Bold.tff');
+  font-weight: bold;
+}*/
+
+/**
+List of colours used on the site
+--------------------------------
+
+  black:      rgb(18,18,18)
+  white:      rgb(250,250,250)
+  blue-gray:  rgb(225,225,235)
+  m-gray:     rgb(98,98,98)
+  l-gray:     rgb(180,180,180)
+  tb-blue:    rgb(102,102,204)
+
+*/
+
+::selection, -moz-selection {
+  background: rgb(102,102,204);
+}
+
 html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote {
   display: block;
   box-sizing: border-box;
@@ -20,7 +61,7 @@ html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, head
 body {
   text-size: 62.5%;
   line-height: 1.25;
-  font-family: sans-serif;
+  font-family: 'PT Serif', serif;
   background-color: rgb(250,250,250);
   color: rgb(18,18,18);
   min-height: 100%;
@@ -61,13 +102,16 @@ p, blockquote {
 
 a {
   text-decoration: none;
+  color: rgb(102,102,204);
 }
 
-a:hover {
-  text-decoration: underline;
+p > a:hover {
+  text-decoration: none;/*underline;*/
+  border-bottom: 1px solid;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.3em;
+  font-family: 'Oxygen', sans-serif;
 }
 
 h1 {font-size: 3.2em;}
@@ -110,19 +154,19 @@ nav li {
 }
 
 nav li:hover{
-  background-color: rgb(190,190,190);
-  color: rgb(248,248,248);
+  background-color: rgb(180,180,180);
+  color: rgb(250,250,250);
 }
 
 nav a {
   font-size: 1.2em;
   line-height: 1;
-  color: rgb(190,190,190);
+  color: rgb(180,180,180);
   transition: color 0.3s ease;
 }
 
 nav li:hover a {
-  color: rgb(248,248,248);
+  color: rgb(250,250,250);
   text-decoration: none;
 }
 
