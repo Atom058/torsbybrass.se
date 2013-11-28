@@ -4,13 +4,11 @@
 
   <article id="post-<?php the_ID(); ?>">
     <h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
-    <div>
+    <p>
       <?php the_date( 'F j, Y', 'Published on ', '', TRUE ) ?> by <?php echo(get_the_author()); ?>
-    </div>
-    <div>
-      <?php the_content(); ?>
-    </div>
+    </p>
+    <?php the_content(); ?>
   </article>
 
 <?php endwhile; endif; ?>
-<?php //get_footer(); ?>
+<?php get_footer(); ?>
