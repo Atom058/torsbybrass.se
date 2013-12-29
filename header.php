@@ -27,5 +27,6 @@
 	</header>
 	<nav>
 		<?php wp_nav_menu( array('menu' => '1') ); ?>
+		<div class="clearfix"></div>
 	</nav>
 	<div class="page-content">
