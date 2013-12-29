@@ -23,7 +23,7 @@
 
 <body <?php body_class($classes); ?>>
 	<header> 
-		<h1><a href="<?php echo get_home_url(); ?>" title="Till startsidan">Torsbybrass.se!</a></h1>
+		<h1><a href="<?php echo get_home_url(); ?>" title="Till startsidan">Torsby Brass</a></h1>
 	</header>
 	<nav>
 		<?php wp_nav_menu( array('menu' => '1') ); ?>
