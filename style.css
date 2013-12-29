@@ -17,101 +17,101 @@ Tags: flat
  */
 
 /*@font-face {
-  font-family: 'Oxygen';
-  src: url('./fonts/Oxygen-Regular.tff');
-  font-weight: normal;
+	font-family: 'Oxygen';
+	src: url('./fonts/Oxygen-Regular.tff');
+	font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Oxygen';
-  src: url('./fonts/Oxygen-Light.tff');
-  font-weight: lighter;
+	font-family: 'Oxygen';
+	src: url('./fonts/Oxygen-Light.tff');
+	font-weight: lighter;
 }
 
 @font-face {
-  font-family: 'Oxygen';
-  src: url('./fonts/Oxygen-Bold.tff');
-  font-weight: bold;
+	font-family: 'Oxygen';
+	src: url('./fonts/Oxygen-Bold.tff');
+	font-weight: bold;
 }*/
 
 /**
 List of colours used on the site
 --------------------------------
 
-  black:      rgb(18,18,18)
-  white:      rgb(250,250,250)
-  blue-gray:  rgb(225,225,235)
-  m-gray:     rgb(98,98,98)
-  l-gray:     rgb(180,180,180)
-  tb-blue:    rgb(102,102,204)
+	black:			rgb(18,18,18)
+	white:			rgb(250,250,250)
+	blue-gray:	rgb(225,225,235)
+	m-gray:		 rgb(98,98,98)
+	l-gray:		 rgb(180,180,180)
+	tb-blue:		rgb(102,102,204)
 
 */
 
 ::selection, -moz-selection {
-  background: rgb(102,102,204);
+	background: rgb(102,102,204);
 }
 
 html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote {
-  display: block;
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+	display: block;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-  text-size: 62.5%;
-  line-height: 1.25;
-  font-family: 'PT Serif', serif;
-  background-color: rgb(250,250,250);
-  color: rgb(18,18,18);
-  min-height: 100%;
+	text-size: 62.5%;
+	line-height: 1.25;
+	font-family: 'PT Serif', serif;
+	background-color: rgb(250,250,250);
+	color: rgb(18,18,18);
+	min-height: 100%;
 }
 
 header, article, nav, footer {
-  padding: 0px 15%;
+	padding: 0px 15%;
 }
 
 header, nav {
-  background-color: black;
+	background-color: black;
 }
 
 header {
-  padding-top: 50px;
-  padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 nav {}
 
 
 article {
-  margin: 2em 0; 
+	margin: 2em 0; 
 }
 
 footer {
-  text-align: center;
-  margin-top: 80px;
+	text-align: center;
+	margin-top: 80px;
 }
 
 p {
-  font-size: 1.4em;
+	font-size: 1.4em;
 }
 
 p, blockquote {
-  margin-bottom: 0.6em;
+	margin-bottom: 0.6em;
 }
 
 a {
-  text-decoration: none;
-  color: rgb(102,102,204);
+	text-decoration: none;
+	color: rgb(102,102,204);
 }
 
 p > a:hover {
-  text-decoration: none;/*underline;*/
-  border-bottom: 1px solid;
+	text-decoration: none;/*underline;*/
+	border-bottom: 1px solid;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.3em;
-  font-family: 'Oxygen', sans-serif;
+	margin-bottom: 0.3em;
+	font-family: 'Oxygen', sans-serif;
 }
 
 h1 {font-size: 3.2em;}
@@ -122,22 +122,22 @@ h5 {font-size: 1.8em;}
 h6 {font-size: 1.4em;}
 
 img {
-  border: none;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+	border: none;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 blockquote{
-  padding: 2.0em;
-  background-color: rgb(225,225,235);
+	padding: 2.0em;
+	background-color: rgb(225,225,235);
 }
 
 blockquote p{
-  color: rgb(98,98,98);
-  padding: 0;
-  margin: 0;
+	color: rgb(98,98,98);
+	padding: 0;
+	margin: 0;
 }
 
 /*
@@ -146,37 +146,37 @@ blockquote p{
  *
  */
 nav li {
-  display: inline-block;
-  float: left;
-  padding: 0.5em 1em;
-  height: 2.5em;
-  transition: background-color 0.3s ease;
+	display: inline-block;
+	float: left;
+	padding: 0.5em 1em;
+	height: 2.5em;
+	transition: background-color 0.3s ease;
 }
 
 nav li:hover{
-  background-color: rgb(180,180,180);
-  color: rgb(250,250,250);
+	background-color: rgb(180,180,180);
+	color: rgb(250,250,250);
 }
 
 nav a {
-  font-size: 1.2em;
-  line-height: 1;
-  color: rgb(180,180,180);
-  transition: color 0.3s ease;
+	font-size: 1.2em;
+	line-height: 1;
+	color: rgb(180,180,180);
+	transition: color 0.3s ease;
 }
 
 nav li:hover a {
-  color: rgb(250,250,250);
-  text-decoration: none;
+	color: rgb(250,250,250);
+	text-decoration: none;
 }
 
 nav ul:after, .clearfix {
-  content: '.';
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 /*
@@ -186,17 +186,17 @@ nav ul:after, .clearfix {
  */
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, header a, header a:hover {
-  /*Reset the link styling for various places*/
-  text-decoration: none;
-  color: inherit;  
+	/*Reset the link styling for various places*/
+	text-decoration: none;
+	color: inherit;	
 }
 
 header > h1 {
-  font-size: 4em;
-  color: white;
+	font-size: 4em;
+	color: white;
 }
 
 article > h1 + p, footer > p {
 /*Overrides the first paragraph of an article, containing the meta. Also overrides the footer text.*/
-  color: rgb(180,180,180);
+	color: rgb(180,180,180);
 }
