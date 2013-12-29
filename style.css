@@ -88,7 +88,7 @@ p > a:hover {
 	border-bottom: 1px solid;
 }
 h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 0.3em;
+	margin-bottom: 0.15em;
 	/*font-family: 'Oxygen', sans-serif;*/
 	font-family: 'Minion Pro', 'Minon';
 	font-weight: bold;
@@ -142,7 +142,7 @@ header {
 
 header > h1 {
 	font-size: 4em;
-	color: white;
+	color: rgb(250,250,250);
 }
 
 /* Navigation */
