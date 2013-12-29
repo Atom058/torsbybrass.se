@@ -1,4 +1,7 @@
-<?php wp_footer?>
+<?php wp_footer(); ?>
+
+</div> <!-- page-content -->
+<div class="clearfix"></div>
 
 <footer> 
   <p>Developed by Anton Dahlström - ©2013</p>

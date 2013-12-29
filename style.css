@@ -72,6 +72,7 @@ body {
 
 p {
 	font-size: 1.4em;
+	text-align: justify;
 }
 
 p, blockquote {
@@ -240,7 +241,7 @@ header > h1 {
 	color: white;
 }
 
-article > h1 + p, footer > p {
+p.meta, footer > p {
 /*Overrides the first paragraph of an article, containing the meta. Also overrides the footer text.*/
 	color: rgb(180,180,180);
 }

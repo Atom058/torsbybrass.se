@@ -28,3 +28,4 @@
 	<nav>
 		<?php wp_nav_menu( array('menu' => '1') ); ?>
 	</nav>
+	<div class="page-content">
