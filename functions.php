@@ -1,4 +1,14 @@
-<?php /*Add image style support for theme*/
+<?php 
+
+	/*----- Register sidebars -----*/
+	$args = array(
+			'name' => __( 'Main Sidebar' )
+			, 'id' => 'main'
+			, 'description' => 'The main sidebar of the site. Used on all pages by default.'
+		);
+	register_sidebar( $args );
+
+	/*----- Adds image styles -----*/
 	if ( function_exists( 'add_theme_support' )	) {
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 150, 150 );//Default Post Thumbnail
@@ -16,7 +26,5 @@
 		}
 		
 	}
-/*	if ( function_exists( 'update_option' ) ) {
-		update_option( 'medium_size_w' , 600 );
-	}*/
+
 ?>
