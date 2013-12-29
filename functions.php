@@ -3,10 +3,13 @@
 	/*----- Register sidebars -----*/
 	$args = array(
 			'name' => __( 'Main Sidebar' )
-			, 'id' => 'main'
+			, 'id' => 'primary'
 			, 'description' => 'The main sidebar of the site. Used on all pages by default.'
+			, 'before_widget' => '<section>'
+			, 'after_widget' => '</section>'
 		);
 	register_sidebar( $args );
+
 
 	/*----- Adds image styles -----*/
 	if ( function_exists( 'add_theme_support' )	) {

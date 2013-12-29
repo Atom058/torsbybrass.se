@@ -7,3 +7,7 @@
  *	@since torsbybrass v.1.0
  **/
  ?>
+
+<?php
+	dynamic_sidebar( 'primary' );
+?>
