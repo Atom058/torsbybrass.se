@@ -14,7 +14,7 @@
 			</span>, 
 			Tel: <span itemprop="telephone">0560-121 68</span>, 
 			Mob: <span itemprop="telephone">070-344 45 68</span>, 
-			E-post: <span itemprop="email">info@torsbybrass.se</span>
+			E-post: <a href="mailto:info@torsbybrass.se"><span itemprop="email">info@torsbybrass.se</span></a>
 		</span>
 	</p>
 </footer>
