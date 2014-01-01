@@ -140,10 +140,19 @@ header {
 	z-index: 20;
 	padding-top: 55px;
 	height: 300px;
+}
+header::after {
+	content: "";
 	background-image: url(./images/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 1600px auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0.6;
 }
 
 header > h1 {
@@ -161,7 +170,7 @@ header > .header-logo {
 	width: 600px;
 	background-image: url(images/logo_torsbybrass_endast_figurer.png);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center 40%;
 	background-size: 600px;
 	z-index: 10;
 }
@@ -176,7 +185,7 @@ nav {
 nav li {
 	display: inline-block;
 	float: left;
-	padding: 0.8em 1em;
+	padding: 0.8em 1.8em;
 	transition: background-color 0.3s ease;
 }
 
