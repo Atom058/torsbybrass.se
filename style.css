@@ -143,13 +143,26 @@ header {
 	background-image: url(./images/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: cover;
+	background-size: 1600px auto;
 }
 
 header > h1 {
 	font-size: 4em;
 	color: rgb(250,250,250);
 	z-index: 10;
+}
+
+header > .header-logo {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: auto;
+	height: 100%;
+	width: 500px;
+	background-image: url(images/logo_torsbybrass_endast_figurer.png);
+	background-repeat: no-repeat;
+	z-index: 30;
 }
 
 /* Navigation */
