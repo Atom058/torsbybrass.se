@@ -51,7 +51,7 @@ List of colours used on the site
 	background: rgb(102,140,200);
 }
 
-html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote, section, textarea {
+html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote, section, textarea, input {
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
@@ -224,41 +224,60 @@ article:first-child{
 	margin-top: 2em;
 }
 
+article p:last-child,
+ul.comments {
+	margin-bottom: 2em;
+}
+
 /*Comments*/
 ul.comments {
 	list-style: none;
 }
 
-.comment-author {}
-
-.comment-form-author {
-	
+.comment-author,
+.comment-meta {
+	margin-bottom: 0.2em;
 }
 
-.comment-meta {}
+form.comment-form {
+	/*text-align: right;*/
+	width: 100%;
+}
 
-.reply{}
-
-.comment-form-comment label {
+.comment-form p {
+	position: relative;
 	display: block;
+	margin-left: 130px;
+}
+
+.comment-form label {
+	width: 130px;
+	position: absolute;
+	left: -130px;
+	top: 0;
+}
+
+.comment-form input[type="text"] {
+	display: inline-block;
+	width: 100%;
+}
+
+.comment-form input[type="text"],
+.comment-form label {
+	padding: 0.5em;
+}
+
+p.comment-form-comment{
+	margin-left: 0;
 }
 
 .comment-form-comment textarea {
-	font-size: inherit;
-	font-family: inherit;
 	width: 100%;
 	padding: 1em;
 	resize: vertical;
-	background-color: rgb(225,225,235);
-	color: rgb(98,98,98);
-	border: none;
 }
 
-.comment-form-comment textarea:focus {
-	outline: 1px solid rgb(102,140,200);
-}
-
-.comment-respond .form-submit input[name="submit"] {
+.comment-respond .form-submit input[type="submit"] {
 	font-size: inherit;
 	display: block;
 	margin-left: auto;
@@ -272,6 +291,20 @@ ul.comments {
 
 .comment-respond .form-submit input[name="submit"]:hover {
 	background-color: rgb(108, 140, 200);
+}
+
+.comment-form input[type="text"], 
+.comment-form-comment textarea {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: rgb(225,225,235);
+	color: rgb(98,98,98);
+	border: none;
+}
+
+.comment-form-comment textarea:focus,
+.comment-form input[type="text"]:focus {
+	outline: 1px solid rgb(102,140,200);
 }
 
 /*Sidebar*/
