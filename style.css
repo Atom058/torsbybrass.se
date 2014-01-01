@@ -140,6 +140,10 @@ header {
 	z-index: 20;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-image: url(./images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
 }
 
 header > h1 {
