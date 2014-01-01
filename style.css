@@ -43,12 +43,12 @@ List of colours used on the site
 	blue-gray:		rgb(225,225,235)
 	m-gray:		  	rgb(98,98,98)
 	l-gray:		  	rgb(180,180,180)
-	tb-blue:		rgb(102,102,204)
+	tb-blue:		rgb(102,140,200)
 
 */
 
 ::selection, -moz-selection {
-	background: rgb(102,102,204);
+	background: rgb(102,140,200);
 }
 
 html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote, section {
@@ -80,7 +80,7 @@ p, blockquote {
 
 a {
 	text-decoration: none;
-	color: rgb(102,102,204);
+	color: rgb(102,140,200);
 }
 
 p > a:hover {
@@ -198,7 +198,7 @@ nav li {
 }
 
 nav li:hover{
-	background-color: rgb(180,180,180);
+	background-color: rgb(108, 140, 200);
 	color: rgb(250,250,250);
 }
 
