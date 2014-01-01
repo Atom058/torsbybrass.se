@@ -120,6 +120,10 @@ blockquote p{
 	margin: 0;
 }
 
+ol {
+	list-style: numbered;
+}
+
 /*
  *
  * Styling of main sections
@@ -207,7 +211,6 @@ nav li:hover a {
 }
 
 /* Articles */
-
 article {
 	width: 65%;
 	float: left;
@@ -216,6 +219,9 @@ article {
 article:first-child{
 	margin-top: 2em;
 }
+
+/*Comments*/
+
 
 /*Sidebar*/
 aside {
