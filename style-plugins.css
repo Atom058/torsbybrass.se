@@ -20,6 +20,10 @@ ul.dates .event {
 	text-align: left;
 }
 
+ul.dates .event .meta {
+	text-align: center;
+}
+
 .eo-event-meta {
 	list-style: none;
 	font-size: 2.2em;
