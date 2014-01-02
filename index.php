@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 
-<div class="posts">
+<div class="posts front">
 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>">
 		<h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>

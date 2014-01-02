@@ -10,6 +10,7 @@
 
 <?php get_header(); ?>
 
+<div class="posts">
 <?php while( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>">
 		<section class="content">
@@ -28,6 +29,7 @@
 		?>
 	</article>
 <?php endwhile; ?>
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

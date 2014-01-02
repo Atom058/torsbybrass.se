@@ -46,11 +46,11 @@ body {
 	min-height: 100%;
 }
 
-p, .comment-author, .comment-meta, .reply {
+p, .comment-author, .comment-meta, .reply, .posts article li {
 	font-size: 2.2em;
 }
 
-p, blockquote {
+p, blockquote, li:last-child {
 	margin-bottom: 0.6em;
 }
 
@@ -71,11 +71,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {font-size: 5.2em;}
-h2 {font-size: 4.0em;}
-h3 {font-size: 3.2em;}
-h4, aside > section > h2 {font-size: 2.8em;}
-h5 {font-size: 2.4em;}
-h6 {font-size: 2.0em;}
+h2 {font-size: 3.9em;}
+h3 {font-size: 3.0em;}
+h4, aside > section > h2 {font-size: 2.6em;}
+h5 {font-size: 2.2em;}
+h6 {font-size: 1.8em;}
 
 img {
 	border: none;
@@ -101,7 +101,7 @@ ol {
 }
 
 ul {
-	list-style: circle;
+	list-style: square;
 }
 
 /*
@@ -200,9 +200,19 @@ article:first-child{
 	margin-top: 2em;
 }
 
-article p:last-child,
+article > h1 > a {
+	/*padding: 0.2em 0.4em;
+	background-color: rgb(0, 0, 0);
+	color: rgb(250, 250, 250);*/
+}
+
+.front article p:last-child,
 ul.comments {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
+}
+
+.posts article ol, .posts article li {
+	margin-left: 1em;
 }
 
 /*Comments*/
