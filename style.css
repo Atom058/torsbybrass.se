@@ -191,7 +191,7 @@ nav li:hover a {
 }
 
 /* Articles */
-article {
+.posts {
 	width: 65%;
 	float: left;
 }
