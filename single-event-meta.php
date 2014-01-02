@@ -16,10 +16,8 @@
 	}else{
 		$date_format = 'j F Y ' . get_option('time_format'); 
 	} ?>
-	<hr>
 
 	<!-- Event details -->
-		<h4><?php _e('Event Details', 'eventorganiser') ;?></h4>
 
 		<!-- Is event recurring or a single event -->
 		<?php if( eo_reoccurs() ):?>
@@ -36,7 +34,7 @@
 			<?php endif; ?>
 		<?php endif; ?>
 
-	<ul class="eo-event-meta" style="float:left;width:40%">
+	<ul class="eo-event-meta">
 
 		<?php if( !eo_reoccurs() ){ ?>
 				<!-- Single event -->
@@ -87,18 +85,5 @@
 		<?php } ?>
 
 	</ul>
-
-	<!-- Does the event have a venue? -->
-	<?php if( eo_get_venue() ): ?>
-		<!-- Display map -->
-		<div id="test" style="width:45%;float:right;">
-		<?php echo eo_get_venue_map(eo_get_venue(),array('width'=>'100%')); ?>
-		</div>
-	<?php endif; ?>
-
-
-	<div style="clear:both"></div>
-
-	<hr>
 
 </div><!-- .entry-meta -->

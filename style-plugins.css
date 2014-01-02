@@ -19,3 +19,14 @@ ul.dates .event {
 	background-color: rgb(225,225,235);
 	text-align: left;
 }
+
+.eo-event-meta {
+	list-style: none;
+	font-size: 2.2em;
+	margin-bottom: 2em;
+}
+
+.eo-event-meta li {
+	padding: 0.2em;
+	background-color: rgb(225,225,235);'
+}
