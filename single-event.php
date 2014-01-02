@@ -12,9 +12,11 @@
 
 <?php while( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>">
+		<h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
+		<section class="meta">
+			<?php get_template_part('single', 'event-meta'); ?>
+		</section>
 		<section class="content">
-			<h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
-			<?php eo_get_template_part('event-meta','event-single'); ?>
 			<?php the_content(); ?>
 		</section>
 		<?php 
