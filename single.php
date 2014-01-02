@@ -15,7 +15,7 @@
 		<section class="content">
 		<h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
 		<p class="meta">
-			<?php the_date( 'F j, Y', 'Published on ', '', TRUE ) ?> by <?php echo(get_the_author()); ?>
+			<?php the_date( 'j F, Y', 'Publicerat den ', '', TRUE ) ?> <?php if( get_the_author() !== admin ) echo( 'av ' . get_the_author() ); ?>
 		</p>
 		<?php the_content(); ?>
 		</section>
