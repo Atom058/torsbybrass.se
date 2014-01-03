@@ -34,4 +34,13 @@
 	}
 	add_action( 'init', 'register_tb_menu' );
 
+	/*----- Reduce the number of posts on front page -----*/
+	function tb_home_pagesize( $query ) {
+	    if ( is_home() ) {
+	        $query -> set( 'posts_per_page', 5 );
+	        return;
+	    }
+	}
+	add_action( 'pre_get_posts', 'tb_home_pagesize', 1 );
+
 ?>
