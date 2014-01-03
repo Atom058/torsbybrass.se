@@ -49,11 +49,11 @@ body {
 	min-height: 100%;
 }
 
-p, .comment-author, .comment-meta, .reply, .posts article li {
+p, .comment-author, .comment-meta, .reply, .posts article li, .padded {
 	font-size: 2.2em;
 }
 
-p, blockquote, article li:last-child {
+p, blockquote, article li:last-child, .padded {
 	margin-bottom: 0.6em;
 }
 
@@ -224,6 +224,14 @@ nav li:hover a {
 
 article:first-child{
 	margin-top: 2em;
+}
+
+article:last-child {
+	margin-bottom: 6em;
+}
+
+.front article:last-child {
+	margin-bottom: 0;
 }
 
 .front article p:last-child,
