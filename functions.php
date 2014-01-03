@@ -43,4 +43,14 @@
 	}
 	add_action( 'pre_get_posts', 'tb_home_pagesize', 1 );
 
+	/*----- [Section] shortcode for divided pages -----*/
+	function tb_section_shortcode( $atts, $content = null ){
+		$output = null;
+		if( $content != null ){
+			return '<section class="divided">' . do_shortcode($content) . '</section>';
+		}
+		return $output;
+	}
+	add_shortcode( 'tb_section', 'tb_section_shortcode');
+
 ?>

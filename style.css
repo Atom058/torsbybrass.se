@@ -244,11 +244,11 @@ ul.comments {
 }
 
 /*Divided pages*/
-.divided article section {
+section.divided {
 	padding: 1em;
 }
 
-.divided article section:nth-child(even) {
+section.divided:nth-child(odd) {
 	background-color: rgb(225,225,235);
 }
 
