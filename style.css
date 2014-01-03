@@ -44,9 +44,18 @@ body {
 	font-size: 62.5%;
 	line-height: 1.35;
 	font-family: 'PT Serif', serif;
+	font-weight: 400;
 	background-color: rgb(252,252,252);
 	color: rgb(18,18,18);
 	min-height: 100%;
+}
+
+em, i {
+	font-style: italic;
+}
+
+strong, b {
+	font-weight: 700;
 }
 
 p, .comment-author, .comment-meta, .reply, .posts article li, .padded {

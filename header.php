@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic|Oxygen:300,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'> 
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 	<meta charset="<?php bloginfo( 'charset' )?>" />
 	<title><?php wp_title(); ?></title>
 	<meta name="description" content="<?php bloginfo( 'description' ); ?>">
