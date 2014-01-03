@@ -26,7 +26,12 @@
 				);
 			}
 		}
-		
 	}
+
+	/*----- Add adaptable main menu -----*/
+	function register_tb_menu() {
+		register_nav_menu( 'header-menu', __( 'Header Menu' ) );
+	}
+	add_action( 'init', 'register_tb_menu' );
 
 ?>
