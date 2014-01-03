@@ -26,7 +26,7 @@
 		<div class="header-logo"></div>
 	</header>
 	<nav>
-		<?php wp_nav_menu( array('menu' => '1') ); ?>
+		<?php wp_nav_menu( array( 'theme-location' => 'header-menu' ) ); ?>
 		<div class="clearfix"></div>
 	</nav>
 	<div class="page-content">
