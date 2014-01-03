@@ -52,7 +52,7 @@ p, .comment-author, .comment-meta, .reply, .posts article li {
 	font-size: 2.2em;
 }
 
-p, blockquote, li:last-child {
+p, blockquote, article li:last-child {
 	margin-bottom: 0.6em;
 }
 
@@ -184,7 +184,10 @@ header > .header-logo {
 nav {
 	position: absolute;
 	margin-top: -36px;
+	width: 100%;
 	z-index: 40;
+	max-height: 36px;
+	overflow: auto;
 }
 
 nav li {
@@ -331,6 +334,7 @@ aside {
 
 aside > section {
 	width: 100%;
+	margin-bottom: 3em;
 }
 
 aside > section:first-child {
@@ -350,7 +354,6 @@ aside p {
 
 footer {
 	text-align: center;
-	margin-top: 80px;
 }
 
 
@@ -390,12 +393,24 @@ p.meta, footer > p, .comment-meta {
 }
 
 /* Media queries */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+	header > h1 {
+		font-size: 100px;
+	}
+
 	.posts {
 		width: 100%;
 	}
 
 	aside {
 		width: 100%;
+		padding-left: 0;
+	}
+	
+}
+
+@media (max-width: 700px) {
+	header > h1 {
+		font-size: 80px;
 	}
 }
