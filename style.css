@@ -72,12 +72,11 @@ a {
 }
 
 p > a:hover {
-	text-decoration: none;/*underline;*/
+	text-decoration: none;
 	border-bottom: 1px solid;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.15em;
-	/*font-family: 'Oxygen', sans-serif;*/
 	font-family: 'Minion Pro', 'Minon';
 	font-weight: bold;
 }
@@ -180,7 +179,7 @@ header > h1 {
 header > .header-logo {
 	position: absolute;
 	top: 0;
-	left: 45%;
+	left: 58%;
 	height: 100%;
 	width: 600px;
 	background-image: url(images/logo_torsbybrass_endast_figurer.png);
