@@ -17,6 +17,9 @@
 			E-post: <a href="mailto:info@torsbybrass.se"><span itemprop="email">info@torsbybrass.se</span></a>
 		</span>
 	</p>
+	<p>
+		© Torsby Brass 2013-2014
+	</p>
 </footer>
 
 </body>
