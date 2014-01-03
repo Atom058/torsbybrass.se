@@ -157,7 +157,7 @@ header::after {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 header > h1 {
@@ -406,7 +406,7 @@ p.meta, footer > p, .comment-meta {
 		width: 100%;
 		padding-left: 0;
 	}
-	
+
 }
 
 @media (max-width: 700px) {
