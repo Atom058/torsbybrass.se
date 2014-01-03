@@ -248,7 +248,7 @@ section.divided {
 	padding: 1em;
 }
 
-section.divided:nth-child(odd) {
+section.divided:nth-child(even) {
 	background-color: rgb(225,225,235);
 }
 
