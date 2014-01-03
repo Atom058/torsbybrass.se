@@ -9,7 +9,9 @@
  ?>
 
 <?php get_header(); ?>
+<?php get_sidebar(); ?>
 
+<div class="posts">
 <?php while( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>">
 		<h1><a href="<?php the_permalink(); ?>" rel="bookmark" title="En permanent länk till artikeln '<?php the_title_attribute();?>'"><?php the_title(); ?></a></h1>
@@ -28,6 +30,6 @@
 		?>
 	</article>
 <?php endwhile; ?>
+</div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
