@@ -12,12 +12,12 @@
 				);
 			?>
 		</ul>
-		<?php 
-			comment_form( array(
-				'comment_notes_before' => ''
-				,'comment_notes_after' => ''
-				,'comment_field' => '<p class="comment-form-comment"><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea></p>'
-				) 
-			); 
-		?>
 	<?php endif; ?>
+	<?php 
+		comment_form( array(
+			'comment_notes_before' => ''
+			,'comment_notes_after' => ''
+			,'comment_field' => '<p class="comment-form-comment"><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea></p>'
+			) 
+		); 
+	?>
