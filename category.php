@@ -29,7 +29,7 @@
 	</article>
 <?php endwhile; endif; ?>
 
-<div class="padded" style="text-align: center;" >
+<div class="padded" style="text-align: center; margin: 2em 0;" >
 	<?php 
 		
 		$next = get_next_posts_link( '<button><span class="button-text">Äldre inlägg</span></button>' );
