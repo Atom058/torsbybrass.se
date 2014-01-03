@@ -21,7 +21,7 @@
 		<?php the_content(); ?>
 		<?php 
 			if( comments_open() ){
-				echo '<p style="text-align: center"><a href="' . get_permalink() . '" rel="" title="Kommentera artikeln">';
+				echo '<p style="text-align: center"><a href="' . get_permalink() . '#commentform" rel="" title="Kommentera artikeln">';
 				comments_number();
 				echo '</a></p>';
 			}
