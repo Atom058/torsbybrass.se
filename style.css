@@ -20,11 +20,13 @@ List of colours used on the site
 	m-gray:		  	rgb(98,98,98)
 	l-gray:		  	rgb(180,180,180)
 	tb-blue:		rgb(102,140,200)
+	tb-red:			rgb(243, 112, 97)
 
 */
 
 ::selection, -moz-selection {
-	background: rgb(102,140,200);
+	background-color: rgb(102,140,200);
+	color: rgb(250,250,250)
 }
 
 html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote, section, textarea, input {
@@ -192,6 +194,10 @@ nav li {
 	transition: background-color 0.3s ease;
 }
 
+nav li.current-menu-item {
+	/*background-color: rgb(243, 112, 97);*/
+}
+
 nav li:hover{
 	background-color: rgb(108, 140, 200);
 	color: rgb(250,250,250);
@@ -212,6 +218,7 @@ nav li:hover a {
 /* Articles */
 .posts {
 	width: 65%;
+	max-width: 1024px;
 	float: left;
 }
 
@@ -275,7 +282,7 @@ form.comment-form {
 	padding: 0.5em;
 }
 
-p.comment-form-comment{
+p.comment-form-comment, p.form-submit, p.logged-in-as {
 	margin-left: 0;
 }
 
@@ -318,7 +325,7 @@ p.comment-form-comment{
 /*Sidebar*/
 aside {
 	width: 35%;
-	float: left;
+	float: right;
 	padding-left: 50px;
 }
 
@@ -380,4 +387,15 @@ header a:hover,
 p.meta, footer > p, .comment-meta {
 /*Overrides the first paragraph of an article, containing the meta. Also overrides the footer text.*/
 	color: rgb(180,180,180);
+}
+
+/* Media queries */
+@media (max-width: 700px) {
+	.posts {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+	}
 }

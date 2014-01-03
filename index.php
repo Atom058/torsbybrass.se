@@ -9,6 +9,7 @@
  ?>
 
 <?php get_header(); ?>
+<?php get_sidebar(); ?>
 
 <div class="posts front">
 <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
@@ -18,9 +19,15 @@
 			<?php the_date( 'j F, Y', 'Publicerat den ', '', TRUE ) ?> <?php if( get_the_author() !== admin ) echo( 'av ' . get_the_author() ); ?>
 		</p>
 		<?php the_content(); ?>
+		<?php 
+			if( comments_open() ){
+				echo '<p style="text-align: center"><a href="' . get_permalink() . '" rel="" title="Kommentera artikeln">';
+				comments_number();
+				echo '</a></p>';
+			}
+		?>
 	</article>
 <?php endwhile; endif; ?>
 </div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
