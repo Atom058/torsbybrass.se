@@ -4,7 +4,7 @@
  *
  *	@package Wordpress
  *	@subpackage torsbybrass
- *	@since torsbybrass v.1.0
+ *	@since torsbybrass v.1.0.1
  **/
  ?>
 <!DOCTYPE html>

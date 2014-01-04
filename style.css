@@ -150,6 +150,7 @@ header, nav li {
 }
 
 header {
+	overflow: hidden;
 	position: relative;
 	z-index: 20;
 	padding-top: 55px;
