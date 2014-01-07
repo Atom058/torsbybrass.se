@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/style-plugins.css'; ?>" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() . '/favicon.ico'; ?>" />
 	<?php wp_head(); ?>
 </head>
 
