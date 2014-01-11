@@ -9,7 +9,6 @@
  ?>
 
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
 
 <div class="posts">
 <?php while( have_posts() ) : the_post(); ?>

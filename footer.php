@@ -1,5 +1,6 @@
 <?php wp_footer(); ?>
 
+<?php get_sidebar(); ?>
 </div> <!-- page-content -->
 <div class="clearfix"></div>
 
