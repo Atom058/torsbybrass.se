@@ -53,6 +53,11 @@ ul.eo-event-meta {
  	border-top: none;
  }
 
+ .fbf_facebook_page_widget_container li img {
+ 	width: 100% !important;
+ 	height: auto !important;
+ }
+
  .fbf_facebook_page_widget_container .facebook_page-timestamp {
  	color: rgb(180,180,180);
  	display: block;
@@ -60,4 +65,3 @@ ul.eo-event-meta {
  	margin-right: auto;
  	text-align: center;
  }
-
