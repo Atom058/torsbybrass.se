@@ -7,7 +7,6 @@
 /*
  * Event-organiser
  */
- /*Widget listings*/
 ul.dates {
 	list-style: none;
 	font-size: 2.2em;
@@ -34,3 +33,31 @@ ul.eo-event-meta {
 	background-color: rgb(225,225,235);
 	margin: 0;
 }
+
+/*
+ * Facebook page widet
+ */
+
+ .fbf_facebook_page_widget_container {
+ 	border-bottom: none !important;
+ }
+
+ .fbf_facebook_page_widget_container .fbf_facebook_page_widget li {
+ 	border-bottom: none;
+ 	border-top: 1px solid rgb(180,180,180);
+ 	padding: 1em 0;
+ 	font-size: 2.2em;
+ }
+
+ .fbf_facebook_page_widget_container .fbf_facebook_page_widget li:first-child {
+ 	border-top: none;
+ }
+
+ .fbf_facebook_page_widget_container .facebook_page-timestamp {
+ 	color: rgb(180,180,180);
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: center;
+ }
+
