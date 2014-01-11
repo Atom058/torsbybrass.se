@@ -5,7 +5,7 @@
 			'name' => __( 'Main Sidebar' )
 			, 'id' => 'primary'
 			, 'description' => 'The main sidebar of the site. Used on all pages by default.'
-			, 'before_widget' => '<section>'
+			, 'before_widget' => '<section id="%1$s">'
 			, 'after_widget' => '</section>'
 			, 'before_title' => '<h2>'
 			, 'after_title' => '</h2>'
