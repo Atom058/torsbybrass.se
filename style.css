@@ -356,7 +356,7 @@ aside > section:first-child {
 }
 
 aside > section > h2,
-.comment-author{
+.comment-author, .link-to-sidebar{
 	padding: 0.3em;
 	background-color: rgb(0,0,0);
 	color: rgb(252,252,252);
@@ -402,6 +402,11 @@ p.meta, footer > p, .comment-meta {
 	color: rgb(180,180,180);
 }
 
+.link-to-sidebar {
+	display: none;
+	margin-top: 1em;
+}
+
 /* Media queries */
 @media (max-width: 800px) {
 	header > h1 {
@@ -415,6 +420,10 @@ p.meta, footer > p, .comment-meta {
 	aside {
 		width: 100%;
 		padding-left: 0;
+	}
+
+	.link-to-sidebar {
+		display: block;
 	}
 
 }
