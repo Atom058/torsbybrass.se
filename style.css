@@ -180,12 +180,12 @@ header > h1 {
 header > .header-logo {
 	position: absolute;
 	top: 0;
-	left: 58%;
+	left: 0;
 	height: 100%;
-	width: 600px;
+	width: 100%;
 	background-image: url(images/logo_torsbybrass_endast_figurer.png);
 	background-repeat: no-repeat;
-	background-position: center 40%;
+	background-position: 75% 40%;
 	background-size: 600px;
 	z-index: 10;
 }
