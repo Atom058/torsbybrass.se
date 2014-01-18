@@ -349,6 +349,9 @@ aside {
 aside > section {
 	width: 100%;
 	margin-bottom: 2em;
+	/*Avoid to long words in the sidebar breaking desing*/
+ 	word-wrap: break-word;
+ 	overflow-wrap: break-word;
 }
 
 aside > section:first-child {
