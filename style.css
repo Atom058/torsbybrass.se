@@ -31,6 +31,8 @@ List of colours used on the site
 }
 
 html, body, div, ol, li, h1, h2, h3, h4, h5, h6, p, article, aside, footer, header, nav, ul, img, blockquote, section, textarea, input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
